@@ -1,0 +1,61 @@
+body{
+  background-color: dimgrey;
+  display: block;
+}
+nav ul  {
+  display: flex;
+  gap:90px;
+  padding: 20px;
+  justify-content: center;
+  opacity: 1px;
+  list-style: none;
+  margin:20px 60px 20px 60px;
+}
+nav ul li{
+  border: 1px solid;
+   height:10px;
+   width:50px;
+   border-radius: 15px;
+   color: white;
+   background-color: cadetblue;
+   padding: 10px 20px;
+   text-align: center;
+}
+ul li:hover
+{
+  background-color: lightblue;
+}
+button{
+  height: 30px;
+  width:30px;
+  border-radius: 15px;
+  color:white;
+  background-color: cadetblue;
+  margin: 50% 50px 50px 50px;
+  border: 1px white solid;
+}
+#lst
+{
+  list-style: none;
+}
+#task
+{
+  display:none;
+  height:250px;
+  width:250px;
+  border:1px white solid;
+  border-radius:50px ;
+  box-shadow: 0 0 20px white;
+  margin: 1px auto;
+}
+#goal
+{
+  display: none;
+  width:220px;
+  height:35px;
+  position: absolute;
+  border:none;
+  border-radius: 5px;
+  position:relative;
+  margin: 50px auto;
+}
